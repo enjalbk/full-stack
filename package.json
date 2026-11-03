@@ -1,0 +1,30 @@
+{
+  "name": "temazon",
+  "version": "1.0.0",
+  "description": "Temazon storefront with MongoDB storage and Stripe Checkout",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node server.js",
+    "admin": "node scripts/make-admin.js"
+  },
+  "author": "Enjal Bk",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.11.0",
+    "express": "^5.3.0",
+    "firebase-admin": "^14.5.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.8.0",
+    "multer": "^2.5.0",
+    "redis": "^6.3.1",
+    "stripe": "^23.1.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server-core": "^11.3.0"
+  }
+}
